@@ -1,0 +1,10 @@
+# graven-sk
+
+on rightclick:
+       block is a sign
+       line 1 of sign is "[Shop]"
+       player has permission "Skript.shop"
+       player has 2 gold nuggets
+       remove 2 gold nuggets from player
+       give player 1 bread
+       message "<light green>You bought a bread."
